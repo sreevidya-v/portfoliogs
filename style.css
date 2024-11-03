@@ -1,0 +1,80 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #e0f7fa; /* Very light cyan text */
+    background-color: #0d1b2a; /* Dark navy blue background */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1b263b; /* Deep blue-gray header */
+    border-bottom: 2px solid #3a506b; /* Accent line in teal-gray */
+}
+
+header .logo {
+    color: #a8dadc; /* Soft teal for the logo */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #e0f7fa;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #c2e9fb; /* Soft blue hover effect */
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #1e3a56; /* Dark blue background for contrast */
+    color: #a8dadc; /* Teal for main text */
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+}
+
+.intro h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #c2e9fb; /* Light blue for title */
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #b3cde0; /* Pale blue-gray for softer text */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3a506b; /* Teal-gray button */
+    color: #e0f7fa;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #5f748e; /* Lighter blue on hover */
+    transform: translateY(-3px); /* Hover lift */
+}
